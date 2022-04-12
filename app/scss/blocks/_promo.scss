@@ -1,0 +1,14 @@
+.promo {
+	height: 100vh;
+	background-image: url("../../images/bg/promo_bg2.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+@media (max-width: 480px) {
+	.promo {
+		background-position: 70%;
+	}
+
+}
